@@ -6,3 +6,5 @@ Prevents us from touching your chest with
 Sword, Ax, Pickaxe, Shovel, Anchor
 -
 Download: https://dosya.co/b3cj4rmivu4s/SwordSandkk.zip.html
+Not: Main dosyasından ayarlanabilir, yapıldığı zaman
+sadece elmas kılıç ile denedim.Ekleyemeyenler ulaşabilir.
