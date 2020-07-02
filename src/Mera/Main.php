@@ -15,13 +15,13 @@ class Main extends PluginBase implements Listener{
     $this->getLogger()->info("Eklenti Aktif, By MeraS");
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
-    public function onInteract(PlayerInteractEvent $event){
-    $p = $event->getPlayer();
-    $esya = $event->getItem();
-    $blok = $event->getBlock();
+    public function onInteract(PlayerInteractEvent $pie){
+    $p = $pie->getPlayer();
+    $esya = $pie->getItem();
+    $blok = $pie->getBlock();
     if($blok->getId() == Item::CHEST){
     if($esya->getId() == Item::DIAMOND_SWORD){
-    $event->setCancelled(true);
+    $pie->setCancelled(true);
     $p->sendMessage("§cElmas Kılıç ile açamazsın!");
     }
     }
